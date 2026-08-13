@@ -1,69 +1,83 @@
 # C Pattern Programs
 
-This repository contains **60 different pattern programs in C language**.
+This repository contains **60 different pattern programs written in C**.
 
-These programs are made as a beginner-level C programming assignment to practice **loops, nested loops, numbers, alphabets, and symbols**.
+This project was created as a beginner-level C programming assignment to practice **loops, nested loops, numbers, alphabets, and different patterns**.
 
-## 📌 Topics Covered
+## 📂 Project Structure
 
-* Star (`*`) patterns
-* Number patterns
-* Alphabet patterns
-* Symbol patterns
-* Pyramid patterns
-* Reverse patterns
-* Diamond and other shapes
-* Basic nested `for` loops
+Each pattern is written in its **own separate C file**.
+
+```text
+C-Pattern-Programs/
+│
+├── Q1.c
+├── Q2.c
+├── Q3.c
+├── Q4.c
+├── Q5.c
+├── ...
+├── Q59.c
+├── Q60.c
+│
+└── README.md
+```
+
+There are a total of **60 programs**, from `Q1.c` to `Q60.c`.
 
 ## 🛠️ Language Used
 
-* **C**
+* C
 
-## 📂 File
+## 📚 Concepts Used
 
-The main program file is:
+These programs mainly use basic C programming concepts such as:
 
-```text
-patterns_60_normal_beginner.c
-```
-
-It contains all **60 patterns (Q1 to Q60)** in a single C file.
+* `printf()`
+* Variables
+* `for` loops
+* Nested `for` loops
+* Basic `if` statements
+* Numbers
+* Alphabets
+* Symbols
+* Rows and columns
 
 ## ▶️ How to Run
 
-### Using GCC
+Each question can be compiled and run separately.
 
-Open the terminal and compile the program:
-
-```bash
-gcc patterns_60_normal_beginner.c -o patterns
-```
-
-Then run it:
-
-### Windows
+For example, to run **Q1.c**:
 
 ```bash
-patterns.exe
+gcc Q1.c
+./a.exe
 ```
 
-### macOS / Linux
+Similarly, you can compile any other question:
 
 ```bash
-./patterns
+gcc Q10.c
+./a.exe
 ```
 
-## 📚 What I Learned
+## 🎯 Purpose
 
-By making these programs, I practiced:
+The main purpose of this project is to improve understanding of **nested loops and pattern printing in C**.
 
-* `for` loops
-* Nested `for` loops
-* `printf()`
-* Variables
-* Basic conditions
-* Controlling rows and columns
-* Printing numbers, alphabets and symbols
+It also helps beginners understand how rows and columns can be controlled using loops to create different patterns.
+
+## 📌 Programs
+
+| File  | Pattern    |
+| ----- | ---------- |
+| Q1.c  | Pattern 1  |
+| Q2.c  | Pattern 2  |
+| Q3.c  | Pattern 3  |
+| Q4.c  | Pattern 4  |
+| Q5.c  | Pattern 5  |
+| ...   | ...        |
+| Q60.c | Pattern 60 |
 
 ## 👨‍💻 Project Type
 
@@ -71,4 +85,6 @@ By making these programs, I practiced:
 
 ## 📝 Note
 
-This project is created for learning and practicing basic C programming concepts, especially **nested loops and pattern printing**.
+All 60 patterns are kept in separate files so that each program can be compiled, tested, and understood individually.
+
+This project is made for **learning and practicing basic C programming**.

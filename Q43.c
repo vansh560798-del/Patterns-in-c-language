@@ -3,24 +3,20 @@
 int main()
 {
     int i, j, n;
-
-    printf("\nQ - 29\n");
-    n=1;
+ printf("\nQ - 43\n");
     for(i=1;i<=4;i++)
     {
         for(j=1;j<=i;j++) 
         {
-            printf("%d ",n++);
+            printf("%c ",'A'+j-1);
         }
         printf("\n");
     }
-    n=4;
     for(i=3;i>=1;i--)
     {
-        n=n-i;
         for(j=1;j<=i;j++) 
         {
-            printf("%d ",n++);
+            printf("%c ",'A'+j-1);
         }
         printf("\n");
     }

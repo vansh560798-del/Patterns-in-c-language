@@ -2,19 +2,19 @@
 
 int main()
 {
-    int i, j;
-    printf("\nQ - 13\n");
+    int i, j, n;
+    printf("\nQ - 33\n");
     for(i=1;i<=5;i++)
     {
         for(j=1;j<=i;j++)
         {
-            if((i+j)%2==0) 
+            if(j==1 || j==i || i==5) 
             {
-            printf("1 ");
+                printf("*");
             }
             else 
             {
-            printf("0 ");
+                printf(" ");
             }
         }
         printf("\n");

@@ -3,14 +3,14 @@
 int main()
 {
     int i, j, n;
-    printf("\nQ - 15\n");
-    for(i=0;i<5;i++)
+    printf("\nQ - 56\n");
+    n=1;
+    for(i=1;i<=4;i++)
     {
-        n=1;
-        for(j=0;j<=i;j++)
+        for(j=1;j<=i;j++)
         {
             printf("%d ",n);
-            n=n*(i-j)/(j+1);
+            n=n+2;
         }
         printf("\n");
     }
